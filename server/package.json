@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc index.ts && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-ecs": "^3.687.0",
+    "@aws-sdk/client-s3": "^3.688.0",
+    "@aws-sdk/client-sqs": "^3.687.0",
+    "@aws-sdk/s3-request-presigner": "^3.689.0",
+    "aws-lambda": "^1.0.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/aws-sdk": "^0.0.42",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/multer": "^1.4.12",
+    "@types/multer-s3": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.2.0"
+  }
+}

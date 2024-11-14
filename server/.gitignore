@@ -1,0 +1,4 @@
+/node_modules
+/src/config.ts
+/src/containers/node_modules
+/build

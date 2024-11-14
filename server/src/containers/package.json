@@ -1,0 +1,16 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@aws-sdk/client-s3": "^3.688.0",
+        "ffmpeg-static": "^5.2.0",
+        "fluent-ffmpeg": "^2.1.3"
+    }
+}
