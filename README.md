@@ -35,5 +35,5 @@ User can upload a video file, and can get the video in 3 transcoded formats: [36
 **Setup**
 1. Simply replace **config-example.ts** file in /server with **config.ts** and fill in the config values.
 2. FE -> Start Command -> npm start
-3. BE -> **.vscode** can be used for debugging purposed
+3. BE -> **.vscode** can be used for debugging purposes
 4. Don't forget to do install the packages :)
